@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:text="😌\nAI Emotion Driven Task Manager"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:backgroundTint="#FFEB3B"
+        android:padding="16dp"
+        android:text="@string/let_s_go"
+        android:onClick="onClick"
+        android:textColor="#FFFFFF" />
+
+
+</FrameLayout>
